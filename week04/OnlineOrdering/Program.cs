@@ -4,11 +4,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Address address = new Address("Gorgonio Aguiar 1047", "Melo", "Cerro Largo", "Uruguay");
+        Address address = new Address("Av. San Carlos de Bolivar 6164", "Carrasco", "Montevideo", "Uruguay");
         Address address1 = new Address("UT 84602", "Provo", "Utah", "USA");
 
         Customer byuStudent = new Customer("Jhon Smith", address1);
-        Customer me = new Customer("Joel Gonzalez", address);
+        Customer me = new Customer("Abinadi", address);
 
         Product bookOfMormon10 = new Product("Book Of Mormon", 1, 3.5, 10);
         Product hollyBible3 = new Product("The Holly Bible", 2, 5.25, 3);
