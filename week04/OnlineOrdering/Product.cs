@@ -23,28 +23,8 @@ public class Product
     {
         return _name;
     }
-    public void SetName(string name)
-    {
-        _name = name;
-    }
     public int GetProductId()
     {
         return _productId;
-    }
-    public void SetProductId(int id)
-    {
-        _productId = id;
-    }
-    public double GetPrice()
-    {
-        return _price;
-    }
-    public void SetPrice(double id)
-    {
-        _price = id;
-    }
-    public int GetQuantity()
-    {
-        return _quantity;
     }
 }
