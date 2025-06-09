@@ -4,6 +4,19 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Shapes Project.");
+        Square square = new Square("yellow", 5);
+
+        Console.WriteLine(square.GetColor());
+        Console.WriteLine(square.GetArea());
+
+        Rectangle rectangle = new Rectangle("blue", 5, 8);
+
+        Console.WriteLine(rectangle.GetColor());
+        Console.WriteLine(rectangle.GetArea());
+
+        Circle circle = new Circle("yellow", 5);
+
+        Console.WriteLine(circle.GetColor());
+        Console.WriteLine(circle.GetArea());
     }
 }
